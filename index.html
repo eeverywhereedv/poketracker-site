@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PokéTracker — Trading card collection tracker for iPhone</title>
+    <meta name="description" content="PokéTracker is a free iPhone app to track your Pokémon Trading Card Game collection: set completion, every card version, prices, an on-device card scanner and shareable progress.">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="wrap">
+            <nav class="nav">
+                <a class="brand" href="./"><img src="images/icon.png" alt="">PokéTracker</a>
+                <a class="lang" href="fr/" hreflang="fr" lang="fr">Français</a>
+            </nav>
+
+            <div class="hero-body">
+                <div>
+                    <h1>Your card collection, always in your pocket.</h1>
+                    <p class="lead">PokéTracker is a free iPhone app for collectors of the Pokémon Trading Card Game. Track every card you own, in every version, follow your progress set by set, know what your collection is worth and add cards in seconds with the camera.</p>
+                    <span class="status">In development · coming to the App Store (iPhone, iOS 18+)</span>
+                </div>
+                <div class="hero-shot">
+                    <img class="hero-icon" src="images/icon.png" alt="PokéTracker icon: a holographic card inside a progress ring">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="wrap">
+                <h2>What it does</h2>
+                <p class="section-lead">Everything a collector needs, nothing else. No account, no ads, no data leaving your phone.</p>
+                <div class="features">
+                    <div class="feature">
+                        <h3>Every set, every era</h3>
+                        <p>From the Base Set to the latest expansion, in English and French. Promos, Trainer Galleries, trainer kits and McDonald's collections have their own Extras tab.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Set completion</h3>
+                        <p>See how many cards of each set you own, in the language you collect, which ones are missing and what it would cost to finish the set. An optional master set mode counts every version separately: normal, reverse holo, Poké Ball reverse and more.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Binder view</h3>
+                        <p>Browse a set page by page, 3 × 3 like a real binder: owned cards in full color, missing ones as silhouettes, holo-only cards shimmering.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Collection value</h3>
+                        <p>Market prices from Cardmarket and TCGplayer for each version, the total value of your collection and its day-by-day curve, your most valuable cards and this week's biggest gains and losses.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>On-device scanner</h3>
+                        <p>Point the camera at a card to find it from its printed number, like 025/165, and its name. Recognition runs entirely on the iPhone with Apple Vision. Batch mode adds a whole stack in one go.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Wishlist, sharing and backups</h3>
+                        <p>Keep the cards you are after in their own tab, in the exact version you want. Share a picture of a set's completion or the list of cards you still need, and back up your collection (JSON, CSV).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="alt">
+            <div class="wrap">
+                <h2>How it works</h2>
+                <p class="section-lead">The typical user flow.</p>
+                <ol class="flow">
+                    <li>On first launch, the app downloads the card catalog, then works offline.</li>
+                    <li>You open a set and add the cards you own, from the list, the binder, the search (name, “25/165”, “SVI 025”…) or the camera scanner.</li>
+                    <li>For each card you choose the version, condition, language and quantity.</li>
+                    <li>The app shows completion per set, the value of your collection and the week's price changes.</li>
+                    <li>You can share a progress image, keep a wishlist of the cards you are missing or export a backup of your collection.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrap">
+                <h2>Data and privacy</h2>
+                <div class="facts">
+                    <div class="feature">
+                        <h3>What stays on the iPhone</h3>
+                        <ul>
+                            <li>The whole collection and wishlist, stored locally.</li>
+                            <li>Camera frames and card recognition: processed on the device, never uploaded.</li>
+                            <li>No account, no analytics, no advertising identifiers.</li>
+                        </ul>
+                    </div>
+                    <div class="feature">
+                        <h3>What the app downloads</h3>
+                        <ul>
+                            <li>The card catalog, card images and TCGplayer prices from TCGdex, an open card database.</li>
+                            <li>Cardmarket's public price guide, at most once a day, on Wi-Fi.</li>
+                            <li>The app sends nothing about your collection to these services.</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="section-lead" style="margin-top: 28px;">Read the full <a href="privacy.html">privacy policy</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div class="links">
+                <a href="privacy.html">Privacy policy</a>
+                <a href="fr/" hreflang="fr" lang="fr">Version française</a>
+                <a href="support.html">Support</a>
+                <a href="https://github.com/eeverywhereedv/poketracker-site/issues">Contact</a>
+            </div>
+            <p>Unofficial app, not affiliated with The Pokémon Company, Nintendo, Creatures or GAME FREAK. Pokémon and related names are trademarks of their respective owners.</p>
+            <p>Card data and images: <a href="https://tcgdex.dev">TCGdex</a>. Prices: <a href="https://www.cardmarket.com">Cardmarket</a> and <a href="https://www.tcgplayer.com">TCGplayer</a>. Card names, text and artwork belong to their respective owners.</p>
+        </div>
+    </footer>
+</body>
+</html>

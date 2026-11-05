@@ -10,7 +10,7 @@ Page de présentation de l'app (anglais et français) et politique de confidenti
 
 Le site ne montre aucune illustration de carte : elles appartiennent à leurs ayants droit. Des captures de l'app pourront être ajoutées à la publication (P8), après décision.
 
-Contact prévu : la page Issues du dépôt GitHub du site (aucune adresse e-mail publiée). Apple demande un moyen simple de contacter le développeur (règle 1.5) : une adresse e-mail dédiée, au choix de l'utilisateur, serait plus sûre.
+Contact : la page Issues du dépôt GitHub du site, sans adresse e-mail (décision de l'utilisateur le 4 novembre 2026). Apple demande un moyen simple de contacter le développeur (règle 1.5) : en cas de refus pour ce motif, ajouter une adresse e-mail à `support.html`.
 
 ## Adresses prévues
 

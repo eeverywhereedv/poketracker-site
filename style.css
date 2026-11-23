@@ -56,6 +56,9 @@ main a, .doc a { color: var(--accent); }
 .hero h1 { font-size: clamp(34px, 5vw, 54px); line-height: 1.08; margin: 0 0 18px; letter-spacing: -0.02em; }
 .hero p.lead { font-size: 19px; opacity: 0.9; margin: 0 0 26px; max-width: 34em; }
 .status { display: inline-block; font-size: 14px; font-weight: 600; padding: 8px 14px; border-radius: 999px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.22); }
+.store-link { background: #fff; color: #0B2545; border-color: #fff; text-decoration: none; font-size: 16px; padding: 12px 20px; }
+.store-link:hover { background: #E6F4F1; }
+.store-note { font-size: 13px; opacity: 0.75; margin: 10px 0 0; }
 .hero-shot { justify-self: center; }
 .hero-icon {
     width: 100%;
